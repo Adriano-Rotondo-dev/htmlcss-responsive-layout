@@ -19,24 +19,48 @@
     border: 1px dashed black;
 }
 
-
+/*#region fonts*/
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
-
 header{
     font-family: 'Nerko One', cursive;
-    color:var(--title);
+}
+/*#endregion fonts*/
+
+/*region Navbar Logo*/
+header{
     background: var(--title-bg);
     padding: 0.7rem;
     .logo{
+        display: block;
         text-align: center;
         font-size: xx-large;
         text-shadow: 1px 1px 1px rgb(180, 180, 180);
     }
+    .logo a{
+        text-decoration: none;
+        color: var(--title);
+    }
 }
-
+/*#endregion Navbar Logo*/
 main{
     background:var(--background)
+}
+.category{
+    color: grey;
+    font-weight: 300;
+    font-size:x-small;
+}
+h1{
+    color:var(--purple-dark);
+}
+
+
+
+
+
+/*MEDIA QUERY TABLET*/
+@media screen and (min-width:768px) {
+    
 }
