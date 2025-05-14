@@ -17,9 +17,11 @@
 .container{
     width:100%;
     max-width:420px;
-    /* border: 1px dashed black; */
 }
+.debug{
+    border: 1px dashed black; 
 
+}
 li{
     list-style-type:none;
     padding:10px;
@@ -148,7 +150,7 @@ button > i{
 /*MEDIA QUERY TABLET*/
 @media screen and (min-width:768px) {
     .container{
-        width: 100%;
+        width: 90%;
     }
     nav{
         display: flex;
