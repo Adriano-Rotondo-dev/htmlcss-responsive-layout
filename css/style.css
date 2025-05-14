@@ -33,7 +33,6 @@ header{
     background: var(--title-bg);
     padding: 0.7rem;
     .logo{
-        display: block;
         text-align: center;
         font-size: xx-large;
         text-shadow: 1px 1px 1px rgb(180, 180, 180);
@@ -62,5 +61,8 @@ h1{
 
 /*MEDIA QUERY TABLET*/
 @media screen and (min-width:768px) {
-    
+    nav{
+        display: flex;
+        justify-content: flex-start;
+    }
 }
