@@ -159,7 +159,11 @@ button > i{
 }
 
 /*#endregion Main*/
-
+/*#region Footer*/
+footer{
+    background-color: var(--purple-light);
+    color: white;
+}
 /****MEDIA QUERY ****/
 /*MEDIA QUERY TABLET*/
 @media screen and (min-width:768px) {
