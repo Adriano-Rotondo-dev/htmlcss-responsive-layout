@@ -132,13 +132,16 @@ main{
     background-color:var(--white);
     border:1px solid white;
     width:1.5rem;
-    height: 1rem;
+    height: 1.3rem;
     border-radius: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 1px 1px 2px rgb(180, 180, 180);
 }
-
+button > i{
+    font-size: smaller;
+}
 
 
 /****MEDIA QUERY ****/
