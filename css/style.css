@@ -296,6 +296,12 @@ footer a{
         max-width: 980px;
         margin:0 auto;
     }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
      /*#region COL*/
         ul{
             display: flex;
@@ -356,7 +362,19 @@ footer a{
         button > .hidden{
             display:inline;
         }
+        footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .address {
+            padding-left: 20px;
+        }
+        aside{
+            position:absolute;
+            right:2rem;
+                }
        /*#endregion COL*/
 
-       
+
 }
