@@ -36,7 +36,7 @@ header{
 }
 /*#endregion fonts*/
 
-/*region Navbar Logo*/
+/*#region Navbar Logo*/
 header{
     background: var(--white);
     padding-bottom: 0.5rem;
@@ -52,6 +52,8 @@ header{
     }
 }
 /*#endregion Navbar Logo*/
+
+/*#region Main*/
 main{
     background:var(--background);
     padding-top:1rem;
@@ -145,6 +147,7 @@ button > i{
     font-size: smaller;
 }
 
+/*#endregion Main*/
 
 /****MEDIA QUERY ****/
 /*MEDIA QUERY TABLET*/
