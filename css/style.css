@@ -163,7 +163,8 @@ button > i{
     justify-content: center;
 }
 .middle-img{
-    max-width: 70%;
+    max-width: 100%;
+    padding: 0 60px;
 }
 /*#endregion Main*/
 /*#region Footer*/
@@ -246,6 +247,9 @@ footer{
         .hidden{
            display: block;
            }
+        }
+        .middle-img{
+            float:left;
         }
 }
 /*MEDIA QUERY DESKTOP
