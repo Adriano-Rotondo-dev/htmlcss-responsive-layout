@@ -5,11 +5,24 @@
 }
 
 /*Utilities*/
+:root{
+    background:#F6F5F3;
+    title: #FF9614;
+    title-bg:#FFFFFF;
+    purple-dark:#4E3969;
+    purple-light:#7C69A4;
+    border-separator:#F7972E;
 
+}
 .container{
     width: 100%;
 }
 
 header{
-    font-family: Ner 
+    font-family: 'Nerko One', cursive;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #F6F5F3;
+}
+
