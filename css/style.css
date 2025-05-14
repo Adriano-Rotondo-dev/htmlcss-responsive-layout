@@ -8,18 +8,23 @@
 :root{
     --background:#F6F5F3;
     --title: #FF9614;
-    --title-bg:#FFFFFF;
+    --white:#FFFFFF;
     --purple-dark:#4E3969;
     --purple-light:#7C69A4;
     --border-separator:#F7972E;
 
 }
 .container{
-    width:90%;
+    width:100%;
     max-width:420px;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
+li{
+    list-style-type:none;
+    padding:10px;
+    font-size:small;
+}
 /*#region fonts*/
 body{
     font-family: 'Montserrat', sans-serif;
@@ -31,9 +36,10 @@ header{
 
 /*region Navbar Logo*/
 header{
-    background: var(--title-bg);
+    background: var(--white);
     padding-bottom: 0.5rem;
     .logo{
+        min-width: fit-content;
         text-align: center;
         font-size: xx-large;
         text-shadow: 1px 1px 1px rgb(180, 180, 180);
@@ -107,7 +113,21 @@ main{
 
 .card img{
     max-width: 100%;
-
+    padding-top: 10px;
+}
+.recipe{
+    background: var(--white);
+    box-shadow: 2px 2px 1px rgb(211, 211, 211);
+    .bold{
+        font-weight: 600;
+    }
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+}
+.socials > button{
+    background-color:var(--white);
 }
 /****MEDIA QUERY ****/
 /*MEDIA QUERY TABLET*/
