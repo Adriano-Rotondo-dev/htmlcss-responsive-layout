@@ -157,7 +157,14 @@ button > i{
 .banner img{
     max-width: 100%;
 }
-
+.img-wrap{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.middle-img{
+    max-width: 70%;
+}
 /*#endregion Main*/
 /*#region Footer*/
 footer{
