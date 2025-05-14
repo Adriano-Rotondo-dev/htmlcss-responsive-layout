@@ -6,12 +6,12 @@
 
 /*Utilities*/
 :root{
-    background:#F6F5F3;
-    title: #FF9614;
-    title-bg:#FFFFFF;
-    purple-dark:#4E3969;
-    purple-light:#7C69A4;
-    border-separator:#F7972E;
+    --background:#F6F5F3;
+    --title: #FF9614;
+    --title-bg:#FFFFFF;
+    --purple-dark:#4E3969;
+    --purple-light:#7C69A4;
+    --border-separator:#F7972E;
 
 }
 .container{
@@ -20,6 +20,7 @@
 
 header{
     font-family: 'Nerko One', cursive;
+    color:var()
 }
 body{
     font-family: 'Montserrat', sans-serif;
