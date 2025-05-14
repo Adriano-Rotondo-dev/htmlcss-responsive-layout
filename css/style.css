@@ -16,14 +16,27 @@
 }
 .container{
     width: 100%;
+    border: 1px dashed black;
 }
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 header{
     font-family: 'Nerko One', cursive;
-    color:var()
-}
-body{
-    font-family: 'Montserrat', sans-serif;
-    background: #F6F5F3;
+    color:var(--title);
+    background: var(--title-bg);
+    padding: 0.7rem;
+    .logo{
+        text-align: center;
+        font-size: xx-large;
+        text-shadow: 1px 1px 1px rgb(180, 180, 180);
+    }
 }
 
+main{
+    background:var(--background)
+}
