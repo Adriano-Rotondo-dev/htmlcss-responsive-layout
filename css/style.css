@@ -125,15 +125,22 @@ main{
 .socials{
     display: flex;
     justify-content: space-around;
-    padding-top:1rem;
+    padding-top:0.7rem;
 }
 .socials > button{
+    cursor:pointer;
     background-color:var(--white);
     border:1px solid white;
     width:1.5rem;
     height: 1rem;
-    border-radius: 50%;
+    border-radius: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+
 /****MEDIA QUERY ****/
 /*MEDIA QUERY TABLET*/
 @media screen and (min-width:768px) {
