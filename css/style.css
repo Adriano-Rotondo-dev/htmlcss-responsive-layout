@@ -15,7 +15,8 @@
 
 }
 .container{
-    width: 100%;
+    width:90%;
+    max-width:420px;
     border: 1px dashed black;
 }
 
@@ -31,7 +32,7 @@ header{
 /*region Navbar Logo*/
 header{
     background: var(--title-bg);
-    padding: 0.7rem;
+    padding-bottom: 0.5rem;
     .logo{
         text-align: center;
         font-size: xx-large;
@@ -44,7 +45,8 @@ header{
 }
 /*#endregion Navbar Logo*/
 main{
-    background:var(--background)
+    background:var(--background);
+    padding-top:1rem;
 }
 .category{
     color: grey;
@@ -53,16 +55,41 @@ main{
 }
 h1{
     color:var(--purple-dark);
+    .hidden{
+        display: none;
+    }
+}
+main{
+    padding:1rem;
 }
 
+.col{
+    width: auto;
+    flex-basis:auto;
+    flex-grow:1;
+}
 
-
+.col-1{
+    width:calc(100/ 12 * 1)
+}
 
 
 /*MEDIA QUERY TABLET*/
 @media screen and (min-width:768px) {
+    .container{
+        width: 100%;
+    }
     nav{
         display: flex;
         justify-content: flex-start;
+        padding-left: 0.5rem;
     }
-}
+    h1{
+        .hidden{
+            display:inline;                        
+        }
+    }
+    main{
+        padding:2rem;
+    }
+    }
