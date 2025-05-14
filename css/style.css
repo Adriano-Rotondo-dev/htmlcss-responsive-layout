@@ -174,14 +174,9 @@ button > i{
     .row{
         display: flex;
         flex-wrap: wrap;
-
     }
  /*#region COL*/
-    .col{
-    width: auto;
-    flex-basis:auto;
-    flex-grow:1;
-}
+    
 .col-md-1{
     width:calc(100/ 12 * 1)
 }
