@@ -155,7 +155,8 @@ button > i{
 /*MEDIA QUERY TABLET*/
 @media screen and (min-width:768px) {
     .container{
-        width: 90%;
+        width: 100%;
+        max-width: 100%;
     }
     nav{
         display: flex;
@@ -174,6 +175,7 @@ button > i{
     .row{
         display: flex;
         flex-wrap: wrap;
+        
     }
  /*#region COL*/
     
