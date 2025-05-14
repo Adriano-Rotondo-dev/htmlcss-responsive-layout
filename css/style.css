@@ -3,3 +3,13 @@
     padding:0;
     box-sizing: border-box;
 }
+
+/*Utilities*/
+
+.container{
+    width: 100%;
+}
+
+header{
+    font-family: Ner 
+}
