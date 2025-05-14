@@ -127,6 +127,9 @@ main{
         font-weight: 600;
     }
 }
+.bold.ul-head{
+    padding: 10px;
+}
 /*#region BTNS-Social*/
 .socials{
     display: flex;
@@ -200,6 +203,16 @@ footer{
     }
         
         /*#region COL*/
+        ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap:5px;
+            justify-content: space-between;
+        }
+        .bold.ul-head{
+            margin-bottom: 20px;
+        }
            
        .col-md-1{
            width:calc(100/ 12 * 1)
@@ -250,6 +263,7 @@ footer{
         }
         .middle-img{
             float:left;
+            max-width: 50%;
         }
 }
 /*MEDIA QUERY DESKTOP
