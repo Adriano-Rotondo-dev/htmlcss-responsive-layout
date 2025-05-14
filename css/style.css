@@ -160,10 +160,10 @@ button > i{
 .banner img{
     max-width: 100%;
 }
-.img-wrap{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+h2{
+    border-bottom: 1px solid var(--border-separator);
+    width: 5rem;
+    padding-bottom: 0.3rem;
 }
 .middle-img{
     max-width: 100%;
@@ -261,9 +261,14 @@ footer{
            display: block;
            }
         }
+        .img-wrap{
+    display: inline;
+        }
         .middle-img{
             float:left;
-            max-width: 50%;
+            max-width: 45%;
+            padding:1rem;
+
         }
 }
 /*MEDIA QUERY DESKTOP
