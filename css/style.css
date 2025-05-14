@@ -226,7 +226,11 @@ button > i{
            width: 100%;
        }
        /*#endregion COL*/
-       
+    .socials > button{
+        width: 6rem;
+        height:2rem;
+        border-radius: 1rem;
+    } 
        .banner{
         .hidden{
            display: block;
