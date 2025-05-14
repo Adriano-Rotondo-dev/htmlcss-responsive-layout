@@ -125,9 +125,14 @@ main{
 .socials{
     display: flex;
     justify-content: space-around;
+    padding-top:1rem;
 }
 .socials > button{
     background-color:var(--white);
+    border:1px solid white;
+    width:1.5rem;
+    height: 1rem;
+    border-radius: 50%;
 }
 /****MEDIA QUERY ****/
 /*MEDIA QUERY TABLET*/
